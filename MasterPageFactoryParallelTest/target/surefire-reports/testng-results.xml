@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41872" started-at="2020-05-07T21:59:10 BST" finished-at="2020-05-07T21:59:52 BST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="41872" started-at="2020-05-07T21:59:10 BST" finished-at="2020-05-07T21:59:52 BST">
+      <class name="parallel.grid.roughWork.TestCase1">
+        <test-method status="PASS" signature="logIn2(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:parallel.grid.roughWork.TestCase1@3b088d51]" name="logIn2" duration-ms="19864" started-at="2020-05-07T21:59:32 BST" data-provider="getData" finished-at="2020-05-07T21:59:52 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bfatogun@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sonsofgod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tommy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn2 -->
+      </class> <!-- parallel.grid.roughWork.TestCase1 -->
+      <class name="parallel.grid.roughWork.TestCase6">
+        <test-method status="PASS" signature="logIn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:parallel.grid.roughWork.TestCase6@53f65459]" name="logIn" duration-ms="21955" started-at="2020-05-07T21:59:10 BST" data-provider="provideData" finished-at="2020-05-07T21:59:32 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bfatogun@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sonsofgod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mickel Kroise]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+      </class> <!-- parallel.grid.roughWork.TestCase6 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
